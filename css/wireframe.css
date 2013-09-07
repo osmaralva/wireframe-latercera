@@ -5,3 +5,20 @@
 img {
 	width: 100%;
 }
+.row.mh {
+	margin-bottom: 10px;
+	margin-top: 5px;
+	text-align: right;
+}
+
+.row.buscador{
+	margin-bottom: 10px;
+}
+
+.row.ah{
+	background-color: #c51426;
+	width: 1140px;
+	margin-left: 0;
+}
+
+
