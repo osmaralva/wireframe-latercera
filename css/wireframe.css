@@ -21,4 +21,22 @@ img {
 	margin-left: 0;
 }
 
+h1{
+	color: #274365;
+}
 
+.row.letrin{
+	color: #666;
+  	font-family: arial;
+  	font-size: 13px; 
+}
+
+.texto-foto{
+	color: #333;
+  	background-color: #c9c8c8;
+  	font-size: 12px;
+  	padding: 6px;
+  	width: 848px;
+  	display: block;
+  	margin-bottom: 20px;
+}
