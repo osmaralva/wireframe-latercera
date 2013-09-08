@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
     <title>La Tercera - Noticias, deportes y actualidad de Chile y el mundo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
@@ -22,12 +23,12 @@
         <!-- Baner Publicidad -->
         <div class="row">
            <div class="col-md-12">
-              <img src="images/publih.jpg" alt="Publicidad">
+              <img src="images/batman.jpg" alt="Publicidad">
            </div>
         </div>
 
         <!-- Header -->
-        <div class="row">
+        <div class="row ah">
              <!-- Logo -->
              <div class="col-md-6">
                 <img src="images/latercera.jpg" alt="LaTercera" >
@@ -39,24 +40,30 @@
           <div class="col-md-6">
              <!--<img src="images/link1.jpg" alt="Link1"> -->
              <!--cajita 1 donde esta sesion etc-->
-             <div class="row">
-                <div class="col-md-8">
+             <div class="row mh">
+                <div class="col-md-6">
                 </div>
-                <div class="col-md-2">
-                  <img src="images/botoncito1.jpg" alt="sesion" >
+
+                <div class="col-md-3">
+                  <button type="button" class="btn btn-primary">Iniciar sesion</button>                 
                 </div>
-                <div class="col-md-2">
-                  <img src="images/botoncito1.jpg" alt="regristrar" >
+                <div class="col-md-3">
+                  <button type="button" class="btn btn-success">Registrate</button>
                 </div>
              </div>
              <!--Fin cajita 1 donde esta sesion etc-->
 
              <!--cajita 2 -->
-             <div class="row">
-                <div class="col-md-4">
+             <div class="row buscador">
+                <div class="col-md-5">
                 </div>
-                <div class="col-md-8">
-                  <img src="images/buscador.jpg" alt="buscador" >
+                <div class="col-md-7">
+                    <form class="navbar-form navbar-left" role="search">
+                      <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                      </div>
+                      <button type="submit" class="btn btn-default">buscador</button>
+                    </form>                  
                 </div> 
              </div>
              <!--Fin de cajita 2 -->
@@ -66,16 +73,19 @@
                 <div class="col-md-6">
                 </div>
                 <div class="col-md-1">
-                  <img src="images/icono1.jpg" alt="facebook" >
+                  <a href=”#”><img src="images/pinter.png" alt="pinterest" ></a>
                 </div>
                 <div class="col-md-1">
-                  <img src="images/icono1.jpg" alt="twitter" >
+                  <a href=”#”><img src="images/facebook.gif" alt="facebook" ></a>
                 </div>
                 <div class="col-md-1">
-                  <img src="images/icono1.jpg" alt="linkedin" >
+                  <a href=”#”><img src="images/twitter.png" alt="twitter" ></a>
+                </div>
+                <div class="col-md-1">
+                  <a href=”#”><img src="images/linkedin.png" alt="linkedin" ></a>
                 </div>
                 <div class="col-md-2">
-                  <img src="images/botoncito1.jpg" alt="grupo copesa" >
+                  <a href=”#”><img src="images/copesa.jpg" alt="grupo copesa" ></a>
                 </div>
              </div>
              <!--Fin de cajita 3 -->
@@ -86,41 +96,163 @@
         </div>
         <!-- Fin de Header -->
 
-        <!--Atención El navegador-->
+
+
+        <!-- INICIO NAVEGADOR -->
             <nav class="navbar navbar-default" role="navigation">
               <!-- Brand and toggle get grouped for better mobile display -->
 
               <!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
-                  <li class="active"><a href="#">Politica</a></li>
-                  <li><a href="#">Nacional</a></li>
-                  <li><a href="#">Mundo</a></li>
-                  <li><a href="#">Negocios</a></li>
-                  <li><a href="#">Opinion</a></li>
-                  <li><a href="#">Santiago</a></li>
-                  <li><a href="#">Tendencias</a></li>
-                  <li><a href="#">Cultura</a></li>
-                  <li><a href="#">Entretencion</a></li>
-                  <li><a href="#">Deporte</a></li>
-                  <li><a href="#">La tercera TV</a></li> 
 
-                <!-- ES CON EL SUBMENU PERO SALE EL SCROOL DE LA PANTALLA 
+                  <!-- Política -->
                   <li class="dropdown">
-                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                          <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li><a href="#">Separated link</a></li>
-                            <li><a href="#">One more separated link</a></li>
-                          </ul>
-                        </li>   -->                                         
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Política<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                           <li><a href="#">Sociedad</a></li>
+                           <li><a href="#">Tecnología</a></li>
+                           <li><a href="#">Viajes</a></li>
+                           <li role="presentation" class="divider"></li>
+                           <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Ir al canal Política</a></li>
+                        </ul>
+                  </li>
+                  <!-- Política -->
+
+                  <!-- Nacional -->
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Nacional<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                           <li><a href="#">Sociedad</a></li>
+                           <li><a href="#">Tecnología</a></li>
+                           <li><a href="#">Viajes</a></li>
+                           <li role="presentation" class="divider"></li>
+                           <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Ir al canal Nacional</a></li>
+                        </ul>
+                  </li>
+                  <!-- Nacional -->
+
+                  <!-- Mundo -->
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mundo<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                           <li><a href="#">Sociedad</a></li>
+                           <li><a href="#">Tecnología</a></li>
+                           <li><a href="#">Viajes</a></li>
+                           <li role="presentation" class="divider"></li>
+                           <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Ir al canal Mundo</a></li>
+                        </ul>
+                  </li>
+                  <!-- Mundo -->
+
+                  <!-- Negocios -->
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Negocios<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                           <li><a href="#">Sociedad</a></li>
+                           <li><a href="#">Tecnología</a></li>
+                           <li><a href="#">Viajes</a></li>
+                           <li role="presentation" class="divider"></li>
+                           <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Ir al canal Negocios</a></li>
+                        </ul>
+                  </li>
+                  <!-- Negocios -->
+
+                  <!-- Opinión -->
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Opinión<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                           <li><a href="#">Sociedad</a></li>
+                           <li><a href="#">Tecnología</a></li>
+                           <li><a href="#">Viajes</a></li>
+                           <li role="presentation" class="divider"></li>
+                           <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Ir al canal Opinión</a></li>
+                        </ul>
+                  </li>
+                  <!-- Opinión -->
+
+                  <!-- Tendencias -->
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tendencias<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                           <li><a href="#">Sociedad</a></li>
+                           <li><a href="#">Tecnología</a></li>
+                           <li><a href="#">Viajes</a></li>
+                           <li role="presentation" class="divider"></li>
+                           <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Ir al canal Tendencias</a></li>
+                        </ul>
+                  </li>
+                  <!-- Tendencias -->
+
+                  <!-- Educación -->
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Educación<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                           <li><a href="#">Sociedad</a></li>
+                           <li><a href="#">Tecnología</a></li>
+                           <li><a href="#">Viajes</a></li>
+                           <li role="presentation" class="divider"></li>
+                           <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Ir al canal Educación</a></li>
+                        </ul>
+                  </li>
+                  <!-- Educación -->
+
+                  <!-- Cultura -->
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cultura<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                           <li><a href="#">Sociedad</a></li>
+                           <li><a href="#">Tecnología</a></li>
+                           <li><a href="#">Viajes</a></li>
+                           <li role="presentation" class="divider"></li>
+                           <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Ir al canal Cultura</a></li>
+                        </ul>
+                  </li>
+                  <!-- Cultura -->
+
+                  <!-- Entretención -->
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Entretención<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                           <li><a href="#">Sociedad</a></li>
+                           <li><a href="#">Tecnología</a></li>
+                           <li><a href="#">Viajes</a></li>
+                           <li role="presentation" class="divider"></li>
+                           <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Ir al canal Entretención</a></li>
+                        </ul>
+                  </li>
+                  <!-- Entretención -->
+
+                  <!-- Deportes -->
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Deportes<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                           <li><a href="#">Sociedad</a></li>
+                           <li><a href="#">Tecnología</a></li>
+                           <li><a href="#">Viajes</a></li>
+                           <li role="presentation" class="divider"></li>
+                           <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Ir al canal Deportes</a></li>
+                        </ul>
+                  </li>
+                  <!-- Deportes -->
+
+                  <!-- La Tercera TV -->
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">La Tercera TV<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                           <li><a href="#">Sociedad</a></li>
+                           <li><a href="#">Tecnología</a></li>
+                           <li><a href="#">Viajes</a></li>
+                           <li role="presentation" class="divider"></li>
+                           <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Ir al canal La Tercera TV</a></li>
+                        </ul>
+                  </li>
+                  <!-- La Tercera TV -->                     
 
                 </ul>
               </div><!-- /.navbar-collapse -->
             </nav>          
-        <!--Fin El navegador-->
+        <!-- FIN NAVEGADOR -->
 
        <!--NOTICIA PRINCIPAL CON PUBLICIDAD-->
           <div class="row">
@@ -135,7 +267,7 @@
                 
                 <div class="row">
                     <div class="col-md-12">
-                        <img src="images/noticia-entrada.jpg" alt="imagen noticia entrada">
+                        <img src="images/fujimori.jpg" alt="fujimori pronuncio su delito">
 
                         <br>
                         <br>
@@ -154,7 +286,7 @@
               <div class="col-md-3">
                 <div class="row">
                     <div class="col-md-12">
-                        <img src="images/publicidad-vertical.jpg" alt="publicidad derecha">
+                        <img src="images/dasanibavertical.jpg" alt="publicidad Dasani">
                     </div>
                 </div>
                 <div class="row">
@@ -165,7 +297,7 @@
 
                 <div class="row">
                     <div class="col-md-12">
-                        <img src="images/publicidad-otrachiquita.jpg" alt="publicidadsegunda">
+                        <img src="images/directv.jpg" alt="directv">
                     </div>
                 </div>
               </div>
