@@ -86,7 +86,8 @@ h1{
 .row.elpadre .row.toditomas .masnoticiasvermas{
 	width: 270px;
 	height: 198px;
-	background-color: blue;
+	background-color: #c3c0c0;
+	margin-bottom: 5px;
 }
 
 .row.elpadre .lafotazo{
@@ -96,5 +97,6 @@ h1{
 }
 
 .row.elpadre .pocofloro{
-	
+	margin:7px 0px 0px 55px;
+	font-family: helvetica;
 }
